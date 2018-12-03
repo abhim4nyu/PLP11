@@ -1,0 +1,6 @@
+<html>
+<body>
+<h4>You Are In Wish List Page<h4>
+
+</body>
+</html>

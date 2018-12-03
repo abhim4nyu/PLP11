@@ -1,0 +1,57 @@
+Module 26: Capstore Homepage
+
+
+
+BAckground:
+User is successfully logged in and is currently in homepage
+
+
+Scenario: Clicking on category and clicks sub catagory then products page is displayed 
+Given :User is on CapStore Homepage
+When: USer clicks catagory and clicks a subcatagory from all catagory
+Then: User will be navigated to Product page related to that catagory
+
+Scenario: User clicking on a product from product page
+Given : User is on product page 
+When: User selects and  clicks a product from the product page
+then : User will be navigated to that product description page
+
+Scenario: User can click on profile page
+Given : User is on CapStore Page
+When : User clicks on profile page
+Then : User is navigated to profile page
+
+Scenario: User Can click on Wish list link
+Given : User is on Capstore Page
+When: User click wish list
+Then :User will be directed to wishlist page
+
+Scenario: User can click cart link
+Given : user is on Capstore Page
+When : User clicks on cart page
+Then :User will be directed to cart page
+
+Scenario: User needs to sort based on price high to low
+Given : User is in Product page 
+When : User clicks on high to low 
+Then : the products will be sorted according to price from high to low
+
+Scenario: User needs to sort based on price low to high
+Given : User is in Product page 
+When : User clicks on low to high
+Then : the products will be sorted according to price from low to high
+
+Scenario: User needs to sort based on name ascending 
+Given : User is in Product page 
+When : User clicks Name Ascending 
+Then : the products will be sorted according to name A-Z
+
+Scenario: User needs to sort based on name descending 
+Given : User is in Product page 
+When : User clicks Name descending 
+Then : the products will be sorted according to name Z-A
+ 
+Scenario: User needs to search
+Given :User is in Capstore page
+When: User clicks on search text box and types what they want to search
+Then: User will have result page based on the search
